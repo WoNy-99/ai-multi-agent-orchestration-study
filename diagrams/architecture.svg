@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+<title id="title">Proposed master-led orchestration architecture</title><desc id="desc">Design only. Master coordination, control policy and workflow state are separate layers. Worker, reviewer and QA integration are not implemented.</desc>
+<rect width="1200" height="620" rx="24" fill="#101b2e"/>
+<g font-family="Arial,sans-serif">
+<text x="44" y="49" fill="#f4be73" font-size="17" letter-spacing="2">DESIGN STUDY · NOT IMPLEMENTED</text>
+<text x="44" y="96" fill="#f3f7ff" font-size="34" font-weight="bold">One coordinator. Separate decision boundaries.</text>
+<g fill="#20334e" stroke="#587194" stroke-width="1.5">
+<rect x="44" y="133" width="300" height="104" rx="14"/><rect x="434" y="133" width="722" height="104" rx="14"/>
+<rect x="434" y="279" width="722" height="86" rx="14"/>
+<rect x="44" y="411" width="244" height="100" rx="14"/><rect x="334" y="411" width="244" height="100" rx="14"/><rect x="624" y="411" width="244" height="100" rx="14"/><rect x="914" y="411" width="242" height="100" rx="14"/>
+</g>
+<g fill="#f3f7ff" font-size="22" text-anchor="middle">
+<text x="194" y="172">Master</text><text x="795" y="172">Harness / Control layer</text><text x="795" y="316">Workflow state and gates</text>
+<text x="166" y="451">Worker</text><text x="456" y="451">Reviewer</text><text x="746" y="451">Independent QA</text><text x="1035" y="451">Wiki workflow</text>
+</g>
+<g fill="#b9cbe1" font-size="16" text-anchor="middle">
+<text x="194" y="204">Coordinate, explain, request</text><text x="795" y="204">Permissions · Contracts · Evidence · Approval</text><text x="795" y="344">Retry · Halt · Resume design</text>
+<text x="166" y="482">Scoped implementation</text><text x="456" y="482">Read-only review</text><text x="746" y="482">Separate execution</text><text x="1035" y="482">Reviewed knowledge</text>
+</g>
+<g stroke="#65d6ce" stroke-width="3" fill="none"><path d="M344 185h84m-8-8 8 8-8 8M795 237v36m-8-8 8 8 8-8M795 365v22H166v24M456 387v24M746 387v24M795 387h240v24"/></g>
+<text x="44" y="561" fill="#f4be73" font-size="18">Current output: requirements, architecture and security design documents.</text>
+<text x="44" y="589" fill="#9bb0ce" font-size="16">No runtime, integration, production deployment or security test results.</text>
+</g></svg>
